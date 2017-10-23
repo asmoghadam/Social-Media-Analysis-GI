@@ -97,19 +97,13 @@ Examples:
 
 def main():
     
-<<<<<<< HEAD
-    CONSUMER_KEY = ''
-    CONSUMER_SECRET = ''
-    OAUTH_TOKEN = ''
-    OAUTH_TOKEN_SECRET = ''
-=======
+
     # https://dev.twitter.com/docs/auth/oauth for more information 
     # on Twitter's OAuth implementation.
     CONSUMER_KEY = ''
     CONSUMER_SECRET = ''
     OAUTH_TOKEN = ''
     OAUTH_TOKEN_SECRET = ''
->>>>>>> ceb04ed3e04a83316811cb2484220dd7b5657bd6
 
     auth = twitter.oauth.OAuth(OAUTH_TOKEN, OAUTH_TOKEN_SECRET,
                                CONSUMER_KEY, CONSUMER_SECRET)
